@@ -73,7 +73,7 @@ In this step, Learning Curve Graph of the final model (XGBoost) is checked to co
 
 Best AUC score for 6 different model after tuning different hyperparameters with several optimization method (GridSearch & Optuna) with different oversampling methods (Random OverSampling, SMOTE, Class Weight Hyperparameter, No Oversampling) are presented below:
 
-| Model | CV Method | Tuning Method | Over Sampling | Encoding | AUC Score |
+| Model | CV Method | Tuning Method | Over Sampling | Categorical Encoding | AUC Score |
 | ------ | ------ | ------ | ------ | ------ | ------ |
 | `Logistic Regression` | StratifiedKFold | GridSearch | Random | OneHot | 0.9150 |
 | `KNN` | StratifiedKFold | GridSearch | Random | OneHot | 0.8337 |
